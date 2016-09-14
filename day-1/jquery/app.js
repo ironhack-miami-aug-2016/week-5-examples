@@ -28,4 +28,17 @@ $(document).ready(function () {
 
   });
 
+  $(".js-unicorn-mode").on("click", function () {
+    $("body").addClass("unicorn-mode");
+
+    var html = `<img src="images/unicorn-sprite.gif">`;
+
+    $("body").prepend(html);
+
+
+    html = `<img src="images/unicorn-whoah.gif">`;
+
+    $("body").append(html);
+  });
+
 });

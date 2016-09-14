@@ -1,0 +1,26 @@
+.unicorn-mode {
+  background-color: #95dcb2;
+}
+
+.unicorn-mode h1 {
+  background-color: #2f388d;
+  color: #cb6494;
+}
+
+
+.unicorn-mode p {
+  background-color: #d08f72;
+  color: #0e2a12;
+}
+
+.unicorn-mode .hello-button {
+  background-color: #ba3e42;
+  color: #d3b87c;
+}
+
+.unicorn-mode .empanadas {
+  color: #9cdeb3;
+  background-color: #f7e7f7;
+  font-size: 40px;
+  font-weight: bold;
+}
