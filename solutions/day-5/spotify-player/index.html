@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+
+	<div class="widget">
+		<form class="js-search-form">
+			<label class="search-label">Search for a song</label>
+			<input class="js-search-term" type="search" name="track-search" placeholder="e.g. 'Twist and Shout'">
+			<button> Search </button>
+		</form>
+
+		<div class="header">
+		<!-- Try adding/removing these classes: -->
+		<!-- disabled -->
+		<!-- playing -->
+		<div class="btn-play disabled js-play-btn"></div>
+
+		<div class="metadata">
+		  <p class="title">Hunger of The Pine</p>
+
+			<button class="js-show-artist">
+			  <p class="author">alt-J</p>
+			</button>
+
+		  <div class="seekbar">
+		    <progress class="js-progress" value="0" max="30"></progress>
+		  </div>
+		</div>
+		</div>
+		<div class="cover">
+			<img src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43">
+		</div>
+
+		<audio class="js-audio-tag" src="https://p.scdn.co/mp3-preview/8e9c5ffdc38e91659bfe8b6bd44650dfc25a3d31"></audio>
+	</div>
+
+
+	<div class="modal fade js-modal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+
+	      <div class="modal-header">
+	        <!-- Close button -->
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span>&times;</span>
+	        </button>
+
+	        <h2 class="js-artist-name"> The Beatles </h2>
+	      </div>
+
+	      <div class="modal-body">
+	      	<img class="artist-image js-artist-photo" src="https://media.giphy.com/media/3o72FcL4VW0cmNfwvC/giphy.gif">
+
+					<h3> Genres </h3>
+
+					<ul class="js-artist-genres">
+						<li> Trap </li>
+						<li> Atlanta </li>
+						<li> Hip hop </li>
+					</ul>
+
+					<p>
+						Followers:
+						<strong class="js-artist-followers">1000000</strong>
+					</p>
+					<p>
+						Popularity:
+						<strong class="js-artist-popularity">1000000</strong>
+					</p>
+	      </div>
+
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+</body>
+</html>
